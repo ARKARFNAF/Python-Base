@@ -1,0 +1,1 @@
+This is a Variable Platform.A Platform to Train and Practice my Variables.

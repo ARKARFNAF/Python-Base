@@ -1,0 +1,7 @@
+income = float(input("What is your monthly income : "))
+rent = float(input("What is your monthly rent : "))
+groceries = float(input("How much do you spend on groceries each month : "))
+entertainment = float(input("How much do you spend on entertainment each month : "))
+savings = float(input("How much savings do you currently have in your bank acc : "))
+remain = savings + (income - (rent + groceries + entertainment))
+print(f"Remaining funds in savings: {remain}")    

@@ -1,0 +1,8 @@
+character_name = input("Enter the name of your character: ")
+hp = float(input("Current HP?: "))
+attack = float(input("Current damage your character does: "))
+defence = float(input("Current defense your character has: "))
+level = int(input("Current character level: "))
+level += 1
+attack +=5
+print(f"\tCurrent Stats\nCharacter\t:{character_name}\nHP\t\t:{hp}\nATK\t\t:{attack}\nDEF\t\t:{defence}\nLevel\t\t:{level}")

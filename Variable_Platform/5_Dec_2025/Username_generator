@@ -1,0 +1,4 @@
+first_name =input("What is your first name: ")
+last_name = input("What is your last name: ")
+favourite_num = input("What is your favourite number: ")
+print (f"{first_name}.{last_name}{favourite_num}")

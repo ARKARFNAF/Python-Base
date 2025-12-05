@@ -1,0 +1,7 @@
+hourly_wage = float(input("Enter your hourly wage: £"))
+hours_worked = int(input("Enter hours you have worked per week: " ))
+tax_rate = float(input("Enter your tax rate in percentage: ")) / 100 
+gross = hourly_wage * hours_worked
+tax_amount = gross * tax_rate
+net_pay = int(gross - tax_amount)
+print(f"Your weekly money after tax is: £{net_pay}")

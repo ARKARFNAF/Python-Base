@@ -1,0 +1,8 @@
+apples = int(input("How many apples are in the basket? :"))
+bananas = int(input("How many bananas are in the basket? :"))
+mangoes = int(input("How many mangoes are in the basket? :"))
+apple_price = float(input("How much was a single apple? :"))
+banana_price = float(input("How much was a single banana? :"))
+mango_price = float(input("How much was a single mango? :"))
+total = (apples * apple_price)+(bananas * banana_price)+(mangoes * mango_price)
+print(f"You have a total of {apples + bananas + mangoes} fruits inside your basket.\n{apples} Apples, {bananas} Bananas and {mangoes} Mangoes\nThe total of which costs £{total}")

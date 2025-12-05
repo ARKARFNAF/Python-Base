@@ -1,0 +1,6 @@
+name = input("What is your name? :")
+age = int(input("What is your age? :"))
+favorite_food =input("What is your favorite food? :")
+favorite_game = input("What is your favorite game? :")
+country = input("Which country are you in? :")
+print(f"Profile Card\nName\t\t: {name}\nAge\t\t: {age}\nFavorite_Food\t: {favorite_food}\nFavorite_Game\t: {favorite_game}\nCountry\t\t: {country}")

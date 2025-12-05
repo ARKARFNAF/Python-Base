@@ -1,0 +1,5 @@
+distance = float(input("Enter the distance travelled in km: "))
+fuel_usage = float(input("How much fuel does a km use: "))
+fuel_price = float(input("How much did a km worth of fuel cost?: £"))
+total = (distance*fuel_usage) * fuel_price
+print(f"Fuel Used\t:{(distance*fuel_usage)}\nTotal Cost\t:{total}")

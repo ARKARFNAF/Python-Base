@@ -1,0 +1,7 @@
+a = input("Enter the first variable: ")
+b = input("Enter the second variable: ")
+print(f"Initial variables\na = {a}\nb = {b}")
+temp_c = b
+b = a
+a = temp_c         
+print(f"Swapped Variables\na = {a}\nb = {b}")
