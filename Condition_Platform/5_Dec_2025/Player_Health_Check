@@ -1,0 +1,5 @@
+hp = input("What is your current hp: ")
+if hp <= 0:
+    print("You died.")
+else:
+    print("You are still alive.")

@@ -1,0 +1,5 @@
+num = int(input("Enter a number: "))
+if num >=1 and num <=10:
+    print("Number in range.")
+else:
+    print("Number out of range.")

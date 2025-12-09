@@ -1,0 +1,35 @@
+    What are the rules of naming variables?
+
+1. A variable name must start with a letter or an underscore.
+   Examples:
+   test = "example"         ✓
+   _test = "example"        ✓
+
+2. A variable name cannot start with a number, but it can contain a number.
+   Examples:
+   1test = "example"        ✗
+   test1 = "example"        ✓
+
+3. A variable name can only contain letters, numbers, and underscores.
+   No special characters are allowed.
+   Examples:
+   test1_1 = "example"      ✓
+   test$ = "example"        ✗
+
+4. No spaces are allowed in variable names.
+   Example:
+   test 1 = "example"       ✗
+
+5. Variable names are case-sensitive.
+   This means "name" and "Name" are treated as different variables.
+
+6. Python keywords cannot be used as variable names.
+   Examples:
+   if = "example"           ✗
+   True = "example"         ✗
+   class = "example"        ✗
+
+7. Descriptive names should be used for better readability.
+   Example:
+   player_name = "Oose"     ✓
+   x = "Oose"               ✗

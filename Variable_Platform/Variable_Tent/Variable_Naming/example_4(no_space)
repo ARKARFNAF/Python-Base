@@ -1,0 +1,3 @@
+name_1 = "Oose"
+#name 1 = "Oose" This will output an error
+print(name_1)

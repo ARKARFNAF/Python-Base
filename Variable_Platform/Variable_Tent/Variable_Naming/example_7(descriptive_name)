@@ -1,0 +1,18 @@
+player_name = "Oose"
+player_hp = 100
+enemy_dmg = 15
+total_score = 1000
+
+#as you can see the variable naming in the above makes it easier to understand for yourself and others
+
+print(player_name)
+print(player_hp)
+print(enemy_dmg)
+print(total_score)
+
+x = "Oose"
+y = 100
+z = 15
+a = 1000
+
+#now you dont know which variable name is which. you might understand them now but your future self and others may be confused.

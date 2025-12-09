@@ -1,0 +1,5 @@
+name = "Oose"
+_name = "Arkar"
+
+print(name)
+print(_name)

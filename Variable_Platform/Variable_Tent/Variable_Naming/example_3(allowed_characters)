@@ -1,0 +1,7 @@
+name = "Oose"
+name_1 = "Arkar"
+name1 = "Oosey"
+#name$ = "Boi"   This line will not work because this contains special character $ which isnt allowed.Allowed characters are(A-Z), (0-9) and (_)underscore
+print(name)
+print(name_1)
+print(name1)

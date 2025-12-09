@@ -1,0 +1,10 @@
+#1name = "Oose"
+#print(1name)
+
+#above code will output an error however codes below will work.
+
+name1 = "Oose"
+print(name1)
+
+name_1 = "Arkar"
+print(name_1)

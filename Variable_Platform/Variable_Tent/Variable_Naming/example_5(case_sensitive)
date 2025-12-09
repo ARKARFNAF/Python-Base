@@ -1,0 +1,6 @@
+name = "Oose"
+Name = "Arkar"
+NAME = "Ooseyboi"
+print(name)
+print(Name)
+print(NAME)

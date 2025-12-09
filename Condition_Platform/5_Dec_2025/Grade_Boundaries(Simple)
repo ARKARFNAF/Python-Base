@@ -1,0 +1,7 @@
+test_score = int(input("What is your test score? Input between 1-100: "))
+if test_score >=50:
+    print("Pass")
+elif test_score < 50:
+    print("Fail")
+else:
+    print("Please enter number between 0-100")

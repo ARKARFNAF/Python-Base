@@ -1,0 +1,6 @@
+price = int(input("Enter your price amount: "))
+if price > 100:
+    final_price = price - (price * 0.10)
+    print (f"Your total is {final_price} 10% discount applied.")
+else:
+    print(f"Your total is {price}. No discount applied.")

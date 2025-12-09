@@ -1,0 +1,4 @@
+my_if = "Oose" #this works because python keyword if is connected by my_
+true_value = True   #this works because python keyword True is lowercase and also is connected by _value
+print(my_if)
+print(true_value)
